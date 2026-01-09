@@ -7,7 +7,7 @@ A high-fidelity frontend application demonstrating robust authentication flows, 
 
 ## 🚀 Live Demo
 
-[Live Demo Application](https://bayonesolutions.netlify.app/login)
+[Live Demo Application](https://bayonesolutions.netlify.app)
 
 ## ✨ Key Features
 
