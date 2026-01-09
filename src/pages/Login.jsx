@@ -130,14 +130,16 @@ export default function Login() {
                     </form>
 
                     <div className="mt-8 pt-6 border-t border-gray-100">
-                        <p className="text-xs text-center text-gray-400 uppercase tracking-widest font-semibold mb-4">Demo Credentials</p>
-                        <div className="flex flex-wrap gap-2 justify-center">
-                            <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
-                                eve.holt@reqres.in
-                            </span>
-                            <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
-                                cityslicka
-                            </span>
+                        <p className="text-sm text-center text-gray-500 font-semibold mb-4 uppercase tracking-wider">Demo Credentials</p>
+                        <div className="bg-gray-50 rounded-xl p-4 border border-gray-100 space-y-3">
+                            <div className="flex flex-col">
+                                <span className="text-xs font-bold text-gray-400 uppercase mb-1">Username</span>
+                                <code className="text-lg font-bold text-gray-900 bg-white px-3 py-2 rounded-lg border border-gray-200 text-center select-all">eve.holt@reqres.in</code>
+                            </div>
+                            <div className="flex flex-col">
+                                <span className="text-xs font-bold text-gray-400 uppercase mb-1">Password</span>
+                                <code className="text-lg font-bold text-gray-900 bg-white px-3 py-2 rounded-lg border border-gray-200 text-center select-all">cityslicka</code>
+                            </div>
                         </div>
                     </div>
                 </div>
